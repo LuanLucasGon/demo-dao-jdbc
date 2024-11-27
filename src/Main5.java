@@ -24,7 +24,7 @@ public class Main5 {
 //            	throw new SQLException("Fake error");
 //            }
 
-            int rows2 = st.executeUpdate("UPDATE seller SET BaseSalary = 3090 WHERE DepartmentId = 2");
+            int rows2 = st.executeUpdate("UPDATE selle SET BaseSalary = 3090 WHERE DepartmentId = 2");
 
             conn.commit();
 
